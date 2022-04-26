@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rightenous&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: lightgray;
+    font-family: "Roboto";
+  }
+  .topo {
+    background: purple;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #bbbbbb;
+  }
+  .produto {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    cursor: pointer;
+    border: 5px solid white;
+  }
+  .botao {
+    background: orangered;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+  h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Rightenous";
+    font-weight: normal;
+  }
+  h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: "Rightenous";
+    font-weight: bold;
+  }
+  h4 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  img {
+    width: 150px;
+    border-radius: 5px;
+    float: right;
+  }

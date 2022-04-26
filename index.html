@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cake Lanchonete</title>
+
+    <Link: rel="preconnect" href="https://fonts.googleapis.com" /> <Link:
+    rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> <Link:
+    rel="preconnect"
+    href="https://fonts.googleapis.com/css2?family=Rightenous&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css";>
+  </head>
+
+  <body>
+    <div class="topo">
+      <h1>Cake Lanchonete</h1>
+      <h2>Doces e Salgados!</h2>
+    </div>
+
+    <h3>Escolha seu Cake:</h3>
+
+    <div id="tortachocolate" class="produto" onclick="escolherTortaChocolate()">
+      <img
+      src=https://images.pexels.com/photos/2144200/pexels-photo-2144200.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;
+      />
+      <h4>Torta de Chocolate</h4>
+      <p>Uma torta de chocolate tamanho G</p>
+      <p><strong>R$45,50</strong></p>
+    </div>
+
+    <div id="tortamorango" class="produto" onclick="escolherTortaMorango()">
+      <img
+      src=https://images.pexels.com/photos/461431/pexels-photo-461431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;
+      />
+      <h4>Torta de Morango</h4>
+      <p>Uma torta de morango tamanho M</p>
+      <p><strong>R$27,00</strong></p>
+    </div>
+
+    <h3>Agora escolha sua bebida:</h3>
+
+    <div id="coca" class="produto" onclick="escolherCoca()">
+      <img
+      src=https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;
+      />
+      <h4>Coca-cola</h4>
+      <p>Uma lata de 350ml</p>
+      <p><strong>R$8,00</strong></p>
+    </div>
+
+    <div id="cafe" class="produto" onclick="escolherCafe()">
+      <img
+      src=https://images.pexels.com/photos/1187317/pexels-photo-1187317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;
+      />
+      <h4>Café Expresso</h4>
+      <p>Um delicioso café para aquecer sua tarde</p>
+      <p><strong>R$10,00</strong></p>
+    </div>
+
+    <h3>Gostaria de um salgado?</h3>
+
+    <div id="croissant" class="produto" onclick="escolherCroissant()">
+      <img
+      src=https://images.pexels.com/photos/792404/pexels-photo-792404.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;
+      />
+      <h4>Croissant</h4>
+      <p>Recheio de carne</p>
+      <p><strong>R$15,00</strong></p>
+    </div>
+
+    <div id="coxinha" class="produto" onclick="escolherCoxinha()">
+      <img
+      src=https://images.pexels.com/photos/4243302/pexels-photo-4243302.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500;
+      />
+      <h4>Coxinha</h4>
+      <p>Recheio de frango com catupiry</p>
+      <p><strong>R$15,00</strong></p>
+    </div>
+
+    <div class="botao" onclick="finalizarPedido()">
+      Finalizar pedido
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
